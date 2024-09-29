@@ -98,6 +98,13 @@ main a:hover {
   color: rgb(240, 93, 80, 0.5);
 }
 
+/* Acuerdate de comentar que has modificado la img por css para que se adapte
+ */
+.img-dylan {
+  width: 100%;
+  height: auto;
+}
+
 .resaltado {
   margin-top: 20px;
   font-weight: bold;
