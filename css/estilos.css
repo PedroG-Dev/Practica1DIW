@@ -57,7 +57,7 @@ a:hover {
 .container {
   font-family: Helvetica, Arial, sans-serif;
   color: rgb(0, 0, 25);
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
   padding: 25px;
 }
@@ -127,7 +127,7 @@ main a:hover {
 
 .lista-nobel-div {
   margin-top: 30px;
-  padding-left: 105px;
+  padding-left: 165px;
   color: rgba(0, 0, 25, 0.5);
   font-weight: bold;
 }
@@ -167,6 +167,26 @@ main a:hover {
 .lista-nobel a {
   font-size: 13px;
   font-weight: 400;
+}
+
+.lista-definicion {
+  margin-left: 20px;
+  margin-top: 35px;
+}
+
+.lista-definicion dt {
+  font-weight: bold;
+}
+
+.lista-definicion time {
+  color: rgba(0, 0, 25, 0.5);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+dd {
+  margin: 20px 0px 20px 20px;
+  font-size: 13px;
 }
 
 /* Acuerdate de comentar que has modificado la img por css para que se adapte
@@ -241,6 +261,12 @@ cite {
 }
 
 .footer-body p {
+  color: rgb(255, 255, 255);
+  padding: 45px;
+  font-size: 12px;
+}
+
+.footer-body-alt p {
   color: rgb(255, 255, 255);
   padding: 35px 45px 15px 45px;
   font-size: 12px;
