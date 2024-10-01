@@ -37,13 +37,24 @@ a:hover {
   color: rgba(0, 0, 25, 0.5);
 }
 
+.enlace-footer-lista {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  padding-bottom: 45px;
+  font-size: 8px;
+}
+
+.enlace-footer-lista:hover {
+  color: rgb(240, 93, 80);
+}
+
 /* Sirve para darle estilos al link del pagina en la que estamos actualmente */
 .activa {
   font-weight: 700;
   font-style: italic;
 }
 
-#container {
+.container {
   font-family: Helvetica, Arial, sans-serif;
   color: rgb(0, 0, 25);
   width: 60%;
@@ -57,6 +68,22 @@ a:hover {
 
 #article-header h2 {
   font-size: 30px;
+}
+
+.header-main-section {
+  text-align: center;
+}
+
+.header-main-section h2 {
+  font-size: 30px;
+}
+
+.header-main-section p {
+  font-size: 8px;
+}
+
+.header-main-section time {
+  font-size: 15px;
 }
 
 .subtitulo {
@@ -98,6 +125,50 @@ main a:hover {
   color: rgb(240, 93, 80, 0.5);
 }
 
+.lista-nobel-div {
+  margin-top: 30px;
+  padding-left: 105px;
+  color: rgba(0, 0, 25, 0.5);
+  font-weight: bold;
+}
+
+.lista-nobel {
+  list-style-type: none;
+}
+
+.lista-nobel > li {
+  position: relative;
+  padding-left: 30px;
+  margin: 20px;
+}
+
+.lista-nobel li {
+  margin-top: 8px;
+}
+
+.lista-nobel > li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 25px;
+  height: 25px;
+  background: url(../img/idioma.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.lista-nobel ul {
+  padding-left: 12px;
+  margin: 15px;
+}
+
+.lista-nobel a {
+  font-size: 13px;
+  font-weight: 400;
+}
+
 /* Acuerdate de comentar que has modificado la img por css para que se adapte
  */
 .img-dylan {
@@ -135,6 +206,10 @@ section p {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+cite {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 .quote blockquote {
   margin: 20px 0px 10px 0px;
   font-size: 15px;
@@ -150,13 +225,23 @@ section p {
   font-size: 11.5px;
 }
 
+.footer-main-section {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.footer-main-section p {
+  font-size: 10px;
+}
+
 .footer-body {
   background-color: rgb(0, 0, 25);
+  text-align: center;
 }
 
 .footer-body p {
   color: rgb(255, 255, 255);
-  padding: 45px;
+  padding: 35px 45px 15px 45px;
   font-size: 12px;
-  text-align: center;
 }
