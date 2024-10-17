@@ -26,14 +26,14 @@ header li {
   list-style: none;
 }
 
-a {
+nav a {
   list-style: none;
   text-decoration: none;
   outline: none;
   color: rgb(0, 0, 25);
 }
 
-a:hover {
+nav a:hover {
   color: rgba(0, 0, 25, 0.5);
 }
 
@@ -100,7 +100,7 @@ a:hover {
 }
 
 address {
-  font-style: none;
+  margin-bottom: 35px;
 }
 
 header address time {
